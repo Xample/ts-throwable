@@ -5,7 +5,7 @@
 const errorType = Symbol("A property only there to store types");
 
 // Throwable is only a type holding the possible errors which can be thrown
-export type throwable<T> = {
+export type throwable<T extends Error> = {
     [errorType]?: T;
 }
 

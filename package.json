@@ -4,7 +4,7 @@
   "bugs": {
     "url": "https://github.com/Xample/ts-throwable/issues"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A workaround to type errors in typescript",
   "keywords": ["typescript", "error", "throwable"],
   "main": "dist/index.js",
