@@ -1,6 +1,6 @@
 // There is only types to test
 
-import { exceptionsOf, getTypedError, throwable } from '../dist';
+import { exceptionsOf, getTypedError, throwable } from '../src';
 
 class CustomError extends Error {}
 
