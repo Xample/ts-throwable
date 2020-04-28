@@ -1,7 +1,11 @@
 {
   "name": "ts-throwable",
-  "version": "0.0.2",
-  "description": "",
+  "homepage": "https://github.com/Xample/ts-throwable#readme",
+  "bugs": {
+    "url": "https://github.com/Xample/ts-throwable/issues"
+  },
+  "version": "0.0.3",
+  "description": "A workaround to type errors in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
