@@ -87,7 +87,7 @@ try {
     const answer: number = methodUsing2RiskyMethods()
 }
 catch(error){
-    const typedError = getTypedError(error, brokenMethod); // typedError is of type Error | CustomError1 | CustomError2
+    const typedError = getTypedError(error, methodUsing2RiskyMethods); // typedError is of type Error | CustomError1 | CustomError2
 }
 ```
 
