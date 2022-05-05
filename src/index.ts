@@ -19,6 +19,6 @@ type getThrowableType<T> = T extends throwable<infer T> ? T : never;
 // return the error typed according to the throwableMethod passed into parameter
 type basicFunction = (...any: any[]) => any;
 
-export type exceptionsOf<T extends basicFunction> = getThrowableType<ReturnType<T>>;
+export type exceptionsOf<T extends basicFunction> = getThrowableType<Awaited<ReturnType<T>>>;
 
 export const getTypedError = <T extends basicFunction>(error: unknown, throwableMethod: T) => (error as exceptionsOf<T>);
